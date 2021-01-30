@@ -153,7 +153,7 @@
     border-bottom:2px solid #b1191a;
 }
 .nav h2{
-    float: left;
+    
     line-height: 47px;
     width: 210px;
     color: #f4e0e0;
@@ -172,29 +172,29 @@
     height: 465px;
     position: relative;
 }
-.nav2>div:first-child{
+.nav>div>div:first-of-type ul{
     width: 210px;
     height: 465px;
     background-color: #c81623;
 }
-.nav2>div:first-child li{
+.nav>div>div:first-of-type li{
     height: 31px;
     line-height: 31px;
     
 }
-.nav2>div:first-child li a{
+.nav>div>div:first-of-type li a{
     font-size: 14px;
     display: block;
     color:#f1f1f1;
     padding-left: 12px;
 }
-.nav2>div:first-child li a::after{
+.nav>div>div:first-of-type li a::after{
     float: right;
     margin-right: 1em;
     content: "\e920";
     font-family: "icomoon";
 }
-.nav2>div:first-child li a:hover{
+.nav>div>div:first-of-type li a:hover{
     background-color: orangered;
 }
 
@@ -247,3 +247,91 @@
     line-height: 24px;
     padding-left: 15px;
 }
+
+
+
+
+
+/* footer制作 */
+.footer{
+    background-color: #7f7f7f;
+    height: 417px;
+}
+.footer .describe::after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.footer .describe{
+    background-color: teal;
+    border-bottom: 3px solid black;
+    padding: 0 100px;
+}
+.footer .describe div{
+    float: left;
+    height: 110px;
+    padding: 30px 0;
+    width: 200px;
+}
+
+.footer .describe div span{
+    
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+.footer .describe div dt{
+    font-size: 16px;
+    color: #f7f7f7;
+}
+.footer .describe div dd{
+    font-size: 12px;
+    color: #f1f1f1;
+}
+.footer .recom{
+    height: 188px;
+    padding: 22px 0;
+    border-bottom: 3px solid red;
+    border-top: 3px solid red;
+}
+
+.footer .recom ul div{
+    float: left;
+    width: 200px;
+    height: 110px;
+    padding-left: 50px;
+}
+.footer .recom ul div:last-child{
+    width: 90px;
+    height: 120px;
+    padding-left: 0;
+    text-align: center;
+}
+
+.footer .recom ul div dt{
+    font-size: 16px;
+    color: rgb(27, 25, 25);
+}
+.footer .recom ul div dd{
+    font-size:12px;
+    color:rgb(25,25,25);
+
+}
+.footer .ft_about ul{
+
+    height: 48px;
+    padding: 21px 110px;
+}
+.footer .ft_about ul li{
+    float: left;
+    padding: 0 15px;
+}
+
+.footer .ft_about ul li:nth-child(n-1){
+    border-right: 1px solid black;
+}
+
+
