@@ -198,63 +198,12 @@
     background-color: orangered;
 }
 
-.nav2 .advertise img{
-    width: 721px;
-    height: 455px;
-    position: absolute;
-    bottom: 0;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.nav2 .post{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 250px;
-    height: 455px;
-    border: 1px grey solid;
-}
-.nav2 .post div:first-child{
-    height: 33px;
-    width: 250px;
-    border-bottom: dashed 1px grey;
-}
-.nav2 .post div:first-child h2{
-    display: inline-block;
-    font-size: 14px;
-    padding-left: 15px;
-}
-.nav2 .post div:first-child a{
-    
-    float: right;
-    padding-right: 17px;
-    line-height: 24px;
-}
-
-.nav2 .post div:first-child a::after{
-    content: "\e920";
-    font-family: "icomoon";
-}
-
-.nav2 .post ul{
-    padding: 6px 0;
-    height: 135px;
-    border-bottom: 1px solid grey;
-}
-.nav2 .post ul li{
-    height: 24px;
-    line-height: 24px;
-    padding-left: 15px;
-}
-
-
 
 
 
 /* footer制作 */
 .footer{
-    background-color: #7f7f7f;
+    background-color:#f5f5f5;
     height: 417px;
 }
 .footer .describe::after{
@@ -265,7 +214,6 @@
     visibility: hidden;
 }
 .footer .describe{
-    background-color: teal;
     border-bottom: 3px solid black;
     padding: 0 100px;
 }
@@ -285,11 +233,11 @@
 }
 .footer .describe div dt{
     font-size: 16px;
-    color: #f7f7f7;
+    
 }
 .footer .describe div dd{
     font-size: 12px;
-    color: #f1f1f1;
+    
 }
 .footer .recom{
     height: 188px;

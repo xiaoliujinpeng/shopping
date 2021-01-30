@@ -1,0 +1,68 @@
+
+
+
+.nav2 .advertise img{
+    width: 721px;
+    height: 455px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav2 .post{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    height: 455px;
+    border: 1px grey solid;
+}
+.nav2 .post div:first-child{
+    height: 33px;
+    width: 250px;
+    border-bottom: dashed 1px grey;
+}
+.nav2 .post div:first-child h2{
+    display: inline-block;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.nav2 .post div:first-child a{
+    
+    float: right;
+    padding-right: 17px;
+    line-height: 24px;
+}
+
+.nav2 .post div:first-child a::after{
+    content: "\e920";
+    font-family: "icomoon";
+}
+
+.nav2 .post ul{
+    padding: 6px 0;
+    height: 135px;
+    border-bottom: 1px solid grey;
+}
+.nav2 .post ul li{
+    height: 24px;
+    line-height: 24px;
+    padding-left: 15px;
+}
+
+.nav2 .post section table{
+    border-collapse: collapse;
+    margin-bottom: 5px;
+}
+.nav2 .post section table td{
+    background-color: red;
+    width: 62px;
+    height: 67px;
+    border: 1px solid grey;
+    border-collapse:collapse;
+}
+.nav2 .post img{
+    height: 75px;
+    width: 248px;
+}
