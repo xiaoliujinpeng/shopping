@@ -1,0 +1,249 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float:right;
+}
+.frc{
+    color:#c81724;
+}
+
+.font_style{
+    font-size: 12px;
+    color:#7f7f7f;
+}
+
+/* 快捷导航栏 */
+.shortcut div:first-child{
+    height: 12px;
+    
+}
+
+.shortcut{
+    padding-top: 9px;
+    height: 31px;
+    background-color: #f1f1f1;
+
+}
+
+.shortcut  p{
+    line-height: 12px;
+}
+.shortcut  p a{
+    color:red;
+}
+.shortcut .fl li{
+    float: left;
+    line-height: 12px;
+}
+
+/* 右侧 */
+.shortcut .fr ul li{
+    float:left;
+    line-height: 12px;
+    padding:0 14px;
+    border-left: 1px solid grey;
+}
+.shortcut .fr ul li:first-child{
+    border-left: none;
+}
+
+.fr ul .arrow-icon::after{
+    content: "\e91e";
+    font-family: "icomoon";
+    margin-left: 2px;
+}
+.f_head{
+    height: 55px;
+    margin-top: 27px;
+    margin-bottom: 24px;
+    position: relative;
+}
+.f_head .logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 56px;
+    width: 175px;
+}
+.f_head .logo h1 a{
+    display: block;
+    background: url("../images/logo.png") no-repeat;
+    font-size: 0;
+    height: 56px;
+    width: 175px;
+}
+.f_head >form{
+    position: absolute;
+    top: 0;
+    left: 350px;
+    height: 35px;
+    width: 540px;
+}
+.f_head>form>input[type=search]{
+    height: 35px;
+    width: 455px;
+    float: left;
+    border: 2px #b1191a solid;
+    border-right: none;
+    padding-left: 10px;
+}
+.f_head>form>input[type=submit]{
+    height: 35px;
+    width: 85px;
+    float: right;
+    background-color: #b1191a;
+    color:#f4e0e0;
+    font-size: 16px;
+}
+.f_head>ul{
+    position:absolute;
+    top: 35px;
+    left: 360px;
+}
+.f_head>ul>li{
+    float: left;
+    margin-right: 24px;
+    margin-top: 8px;
+}
+.f_head>div{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    background-color: #f7f7f7;
+    width: 175px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: f7f7f7;
+    box-shadow: 0px 1px 2px;
+}
+.f_head>div>i{
+    background-color: red;
+    position: absolute;
+    font-size: 8px;
+    height: 15px;
+    line-height: 15px;
+    top: -3px;
+    left: 115px;
+    padding:0 3px;
+    border-radius: 15px 15px 15px 0;
+    color: #f7f7f7;
+}
+
+.f_head>div>a::after{
+    content: "\e920";
+    font-family: "icomoon";
+    padding-left: 1em;
+}
+
+.f_head>div>a::before{
+    content: "\e93a";
+    font-family: "icomoon";
+    color: #da5353;
+    padding-right: 1em;
+}
+
+.nav{
+    height: 47px;
+    border-bottom:2px solid #b1191a;
+}
+.nav h2{
+    float: left;
+    line-height: 47px;
+    width: 210px;
+    color: #f4e0e0;
+    text-align: center;
+    background-color: #b1191a;
+    font-size: 16px;
+}
+.nav ul li{
+    float: left;
+    line-height: 47px;
+    padding-left: 48px;
+    text-align: center;
+    font-size: 16px;
+}
+.nav2{
+    height: 465px;
+    position: relative;
+}
+.nav2>div:first-child{
+    width: 210px;
+    height: 465px;
+    background-color: #c81623;
+}
+.nav2>div:first-child li{
+    height: 31px;
+    line-height: 31px;
+    
+}
+.nav2>div:first-child li a{
+    font-size: 14px;
+    display: block;
+    color:#f1f1f1;
+    padding-left: 12px;
+}
+.nav2>div:first-child li a::after{
+    float: right;
+    margin-right: 1em;
+    content: "\e920";
+    font-family: "icomoon";
+}
+.nav2>div:first-child li a:hover{
+    background-color: orangered;
+}
+
+.nav2 .advertise img{
+    width: 721px;
+    height: 455px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav2 .post{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    height: 455px;
+    border: 1px grey solid;
+}
+.nav2 .post div:first-child{
+    height: 33px;
+    width: 250px;
+    border-bottom: dashed 1px grey;
+}
+.nav2 .post div:first-child h2{
+    display: inline-block;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.nav2 .post div:first-child a{
+    
+    float: right;
+    padding-right: 17px;
+    line-height: 24px;
+}
+
+.nav2 .post div:first-child a::after{
+    content: "\e920";
+    font-family: "icomoon";
+}
+
+.nav2 .post ul{
+    padding: 6px 0;
+    height: 135px;
+    border-bottom: 1px solid grey;
+}
+.nav2 .post ul li{
+    height: 24px;
+    line-height: 24px;
+    padding-left: 15px;
+}
