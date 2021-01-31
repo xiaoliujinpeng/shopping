@@ -46,6 +46,9 @@
     border-bottom: 1px solid grey;
 }
 .nav2 .post ul li{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     height: 24px;
     line-height: 24px;
     padding-left: 15px;
@@ -65,4 +68,207 @@
 .nav2 .post img{
     height: 75px;
     width: 248px;
+}
+
+.recommend{
+    height: 163px;
+    background-color: #ebebeb;
+    margin-top: 11px;
+}
+.recommend div{
+    float: left;
+    height: 163px;
+    padding: 10px 0;
+    width: 247px;
+}
+
+.recommend div:first-child{
+    width: 206px;
+    background-color: #5c5251;
+}
+
+.recommend div:nth-child(2) a{
+    display: block;
+    height: 143px;
+    border-right: 1px solid grey;
+    padding: 22px 20px;
+    background: url(../upload/n1.png) no-repeat 130px 20px;
+}
+
+.recommend div:nth-child(2) a h3{
+    font-size: 20px;
+}
+.recommend div:nth-child(2) a p:first-of-type{
+    display: block;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #00a0e8;
+    padding-left: 5px;
+    margin-right: 100px;
+}
+.guess ul::after{
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+
+}
+.guess ul li{
+    float: left;
+    height: 233px;
+    width: 200px;
+    padding: 35px;
+    padding-bottom: 5px;
+    
+}
+
+.fun div:first-child{
+    background-color: red;
+    width: 405px;
+    height: 407px;
+}
+
+.fun .goodthing{
+    width: 230px;
+    height: 407px;
+}
+.fun .goodthing h3{
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.fun .goodthing h3::after,.fun .brandstreet h3::after{
+    content:"";
+    display: block;
+    width: 192px;
+    height: 1px;
+    background-color: grey;
+    margin: 0 auto;
+}
+
+
+.fun .goodthing div:first-of-type{
+    height: 208px;
+    background-color: black;
+}
+.fun .goodthing div:last-of-type{
+    height: 160px;
+    width: 230px;
+    background-color: aqua;
+}
+
+.fun .brandstreet h3{
+    width: 408px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.fun .brandstreet div:first-of-type{
+    height: 208px;
+    background-color: tomato;
+}
+.fun .brandstreet div:last-of-type{
+    height: 160px;
+    width: 408px;
+    background-color:dodgerblue;
+}
+
+.fun div:last-child{
+    width: 157px;
+    height: 407px;
+    background-color: green;
+}
+
+
+.phone .phone_top{
+    height: 30px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.phone .phone_top h3{
+    line-height: 30px;
+    color: red;
+
+}
+.phone  .phone_top ul li{
+    float: left;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.phone .phone_top ul li a{
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 15px;
+}
+.phone .phone_top ul li:nth-last-child(n)::after{
+    content:"";
+    display: inline-block;
+    height: 10px;
+    width: 1px;
+    background-color: grey;
+    line-height: 30px;
+}
+
+.phone .phone_top ul li:last-child::after{
+    content: "";
+    width: 0;
+    height: 0;
+}
+.phone .phone_down div{
+    float: left;
+    text-align: center;
+    
+}
+.phone .phone_down div:first-child{
+    width: 210px;
+}
+.phone .phone_down div:first-child ul li{
+    float: left;
+    width: 85px;
+    height: 35px;
+    text-align:center;
+    line-height:35px;
+    border-bottom: 1px dashed grey;
+    margin: 0 10px;
+}
+.phone .phone_down div:first-child>a{
+    display: block;
+    height: 255px;
+    background-color: red;
+    width: 210px;
+} 
+
+.phone .phone_down div:nth-child(2){
+    width: 330px;
+    height: 360px;
+    background-color: #00a0e8;
+}
+.phone .phone_down div:nth-child(3){
+    width: 220px;
+    height: 360px;
+}
+.phone .phone_down div:nth-child(3)>a:first-child{
+    display: block;
+    width: 220px;
+    height: 180px;
+    background-color: darkblue;
+}
+.phone .phone_down div:nth-child(3)>a:last-child{
+    display: block;
+    width: 220px;
+    height: 180px;
+    background-color: dodgerblue;
+}
+.phone .phone_down div:nth-child(4){
+    width: 222px;
+    height: 360px;
+    background-color: darkgoldenrod;
+}
+.phone .phone_down div:last-child{
+    width: 218px;
+    height: 360px;
+    background-color: gold;
 }
