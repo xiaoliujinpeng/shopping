@@ -1,0 +1,59 @@
+.list_links{
+    height: 45px;
+    border-bottom: 2px solid red;
+    line-height: 45px;
+    
+}
+
+.list_links div:first-child{
+    text-align: center;
+}
+.list_links div:first-child a{
+    font-size: 20px;
+    font-weight: 900;
+    margin-left:45px;
+}
+.list_links ul li{
+    float: left;
+    margin-left: 45px;
+}
+
+.list_links .more{
+    margin-left:45px;
+}
+.list_links .more h4::after{
+    content:"\e91e";
+    font-family: "icomoon";
+    margin-left: 3px;
+}
+
+.list_post{
+    height: 120px;
+}
+
+
+main div{
+    float:left;
+    width: 290px;
+    height: 470px;
+    margin-left: 5px;
+}
+main div a{
+    border: 1px solid transparent;
+    display: block;
+    width: 290px;
+    height: 470px;
+    background-image: url(../upload/list.jpg);
+}
+main div a:hover{
+    border: 1px solid red;
+}
+
+/* 加入秒杀标志 */
+.f_head .logo .sk{
+    position: absolute;
+    left: 190px;
+    top: 10px;
+    padding-left: 10px;
+    border-left: 2px solid red ;
+}
