@@ -1,0 +1,56 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header a{
+    width: 175px;
+    height: 56px;
+}
+
+.form{
+    border:1px solid grey;
+    height: 520px;
+}
+
+.form h3{
+    background-color: #ececec;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 8px;
+    font-size: 20px;
+}
+
+.form form{
+
+    background-color: #1f2023;
+    height:480px;
+    padding: 55px 300px;
+}
+
+.form form div>div{
+    display: block;
+    text-align: right;
+    margin: 0 auto;
+    width: 320px;
+    height: 36px;
+    margin-top: 10px;
+}
+.form .cusform input{
+    height: 36px;
+    width: 240px;
+}
+
+.form .cusform{
+    padding: 100px 0;
+}
+
+.form .cusform>input:last-child{
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin:0 auto;
+    text-align: right;
+}
+
+
